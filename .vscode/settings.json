@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "attipikHouse_Acceuil",
+    "id": "66b4c3fa5b7bd44b60ef7fee",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "rem",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "d:\\Documents\\Tous mes cours F2I\\Soutenance\\AtypikHouse\\src\\components",
+    "screensPath": "d:\\Documents\\Tous mes cours F2I\\Soutenance\\AtypikHouse\\src\\pages"
+  }
+}

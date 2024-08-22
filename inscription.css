@@ -1,0 +1,266 @@
+.tagline2 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading15 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.ou-inscrivez-vous-en {
+  color: var(--text-primary);
+}
+.text35 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-medium-semi-bold-size);
+  line-height: 150%;
+  color: var(--color-brand-orange);
+}
+.content43 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--heading-desktop-h2-size);
+}
+.section-title13 {
+  width: 42.667rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.first-name2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.typedefault6 {
+  align-self: stretch;
+  background-color: var(--background-color-primary);
+  border: 1px solid var(--text-primary);
+  box-sizing: border-box;
+  height: 2.778rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  border-radius: 25px;
+}
+.input8 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.inputs4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.select-one1 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.icon-chevron-down {
+  width: 1.333rem;
+  position: relative;
+  height: 1.333rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconfalse1 {
+  align-self: stretch;
+  background-color: var(--background-color-primary);
+  border: 1px solid var(--text-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-base);
+  color: var(--color-neutral-neutral);
+}
+.input12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkbox1 {
+  width: 1.111rem;
+  position: relative;
+  background-color: var(--background-color-primary);
+  border: 1px solid var(--text-primary);
+  box-sizing: border-box;
+  height: 1.111rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label1 {
+  position: relative;
+  line-height: 150%;
+}
+.selectedfalse1 {
+  width: 7.889rem;
+  height: 2.056rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--text-small-link-size);
+}
+.styleprimary-smallfalse-da4 {
+  width: 10.111rem;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-brand-vert);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--heading-desktop-h5-size);
+}
+.form2 {
+  width: 42.667rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+}
+.contact-22 {
+  width: 80rem;
+  background-color: var(--background-color-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-93xl) var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+}
+.inscription1 {
+  position: absolute;
+  top: 0rem;
+  /*left: 0rem;*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inscription {
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: 60.778rem;
+  text-align: center;
+  font-size: var(--text-regular-link-size);
+  color: var(--text-primary);
+  font-family: var(--text-medium-semi-bold);
+}
+
+/*Modifs*/
+/* Assurez-vous que le conteneur principal prend toute la largeur de l'écran */
+.inscription {
+  width: 100%;
+  height: 100vh; /* Prend toute la hauteur de la fenêtre pour centrer verticalement */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: var(--text-regular-link-size);
+  color: var(--text-primary);
+  font-family: var(--text-medium-semi-bold);
+}
+
+/* Le conteneur de formulaire s'ajuste pour les différentes tailles d'écran */
+.contact-22 {
+  width: 100%; /* Prend toute la largeur de l'écran */
+  max-width: 42.667rem; /* Largeur maximale du formulaire */
+  padding: 20px; /* Padding pour l'espace interne */
+  box-sizing: border-box;
+  background-color: var(--background-color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Ajustements du formulaire */
+.form2 {
+  width: 100%; /* Prend toute la largeur disponible */
+  max-width: 42.667rem; /* Largeur maximale du formulaire */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+}
+
+/* Les champs de saisie prennent toute la largeur */
+.inputs4, .input8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Les champs sont empilés verticalement */
+  gap: var(--gap-5xs);
+}
+
+/* Le bouton de soumission s'ajuste à la largeur disponible */
+.styleprimary-smallfalse-da4 {
+  width: 100%;
+  max-width: 10.111rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-22 {
+    padding: 10px; /* Réduit le padding sur les tablettes */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-22 {
+    padding: 5px; /* Réduit encore plus le padding sur mobile */
+  }
+
+  .form2, .inputs4 {
+    max-width: 100%; /* Les champs prennent toute la largeur sur mobile */
+  }
+
+  .styleprimary-smallfalse-da4 {
+    max-width: 100%; /* Le bouton prend toute la largeur sur mobile */
+  }
+}
