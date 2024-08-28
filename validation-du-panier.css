@@ -512,3 +512,50 @@
   color: var(--text-primary);
   font-family: var(--text-medium-semi-bold);
 }
+
+@media (max-width: 1200px) {
+  .column22, .column23, .column24 {
+    height: 400px;
+  }
+}
+@media (max-width: 7680px) {
+  .container18, .content38 {
+    flex-flow: column wrap;
+  }
+  .placeholder-image-icon2 {
+    height: 200px;
+    width: 200px;
+  }
+  .column23, .column24 {
+    display: none;
+  }
+
+  .contact-21 {
+    width: 98%;
+  }
+
+  .form1 {
+    width: 98%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .column22, .column23, .column24 {
+    height: 400px;
+  }
+
+  .section-title12 {
+    align-items: flex-start;
+    width: 98%;
+  }
+  .form1 {
+    flex-flow: column wrap;
+  }
+  .inputs2 {
+    flex-flow: column wrap;
+  }
+  .input2 {
+    width: 100%;
+  }
+}

@@ -247,20 +247,40 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-22 {
-    padding: 10px; /* Réduit le padding sur les tablettes */
+    width: 98%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
+  .section-title13 {
+    width: 98%;
+  }
+
+  .form2 {
+    width: 90%;
+  }
+
 }
 
 @media (max-width: 480px) {
+  .section-title13 {
+    width: 75%;
+  }
   .contact-22 {
-    padding: 5px; /* Réduit encore plus le padding sur mobile */
+    padding: 1px; /* Réduit encore plus le padding sur mobile */
   }
 
-  .form2, .inputs4 {
-    max-width: 100%; /* Les champs prennent toute la largeur sur mobile */
+  .form2 {
+    max-width: 75%; /* Les champs prennent toute la largeur sur mobile */
   }
 
   .styleprimary-smallfalse-da4 {
     max-width: 100%; /* Le bouton prend toute la largeur sur mobile */
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    width: 22rem;
   }
 }

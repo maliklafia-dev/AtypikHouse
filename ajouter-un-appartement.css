@@ -327,3 +327,17 @@
   width: 100%;
   max-width: 14.833rem; /* Ajustez cette valeur selon vos besoins */
 }
+
+@media (max-width: 768px) {
+  .content45 {
+    flex-flow: column wrap;
+  }
+
+  .contact-9 {
+    padding: var(--padding-5xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

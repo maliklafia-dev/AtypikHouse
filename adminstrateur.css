@@ -78,7 +78,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0rem var(--padding-45xl);
+  padding: 0rem ;
   font-size: var(--text-regular-link-size);
 }
 .short-heading-here2 {
@@ -139,7 +139,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-93xl) var(--padding-45xl);
+  padding: var(--padding-45xl) var(--padding-5xl);
   box-sizing: border-box;
   text-align: center;
   font-size: var(--heading-desktop-h2-size);
@@ -193,9 +193,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-93xl) var(--padding-45xl);
+  padding: var(--padding-5xl) var(--padding-5xl);
   box-sizing: border-box;
-  gap: var(--gap-61xl);
+  gap: var(--gap-13xl);
   margin: 0;
 }
 .button10 {
@@ -246,7 +246,7 @@
 .adminstrateur {
   width: 100%;
   position: relative;
-  height: 323.556rem;
+  height: auto;
   text-align: left;
   font-size: var(--heading-desktop-h4-size);
   color: var(--text-primary);
@@ -254,40 +254,29 @@
 }
 
 /* Réinitialisation globale */
-html, body {
-  margin: 0;
-  padding: 0;
+.adminstrateur, .adminstrateur1, .container5, .container6 {
   width: 100%;
-  height: 100%;
   box-sizing: border-box;
 }
 
-.adminstrateur, .adminstrateur1, .container4, .container5, .container6 {
-width: 100%;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
 .navbar-32, .header-65, .layout-237, .layout-3 {
-width: 100%; /* Assurez-vous que ces éléments prennent toute la largeur */
-max-width: 100%; /* Retire toute limitation de largeur */
-margin: 0 auto;
-/* padding: var(--padding-93xl) var(--padding-45xl); Conservez le padding si nécessaire */
-box-sizing: border-box;
-text-align: center;
+  width: 100%; /* Assurez-vous que ces éléments prennent toute la largeur */
+  max-width: 100%; /* Retire toute limitation de largeur */
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .container5 {
-width: 100%; /* Assurez-vous que ce conteneur prend toute la largeur */
-max-width: 100%;
-margin: 0 auto;
+  width: 100%; /* Assurez-vous que ce conteneur prend toute la largeur */
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .placeholder-image-icon7 {
-width: 100%; /* Ajuste l'image pour qu'elle prenne toute la largeur */
-max-width: 100%;
-object-fit: contain; /* Ajuste l'image pour qu'elle soit contenue dans son conteneur */
+  width: 100%; /* Ajuste l'image pour qu'elle prenne toute la largeur */
+  max-width: 100%;
+  object-fit: contain; /* Ajuste l'image pour qu'elle soit contenue dans son conteneur */
 }
 
 /* Responsive Design */
@@ -296,10 +285,6 @@ object-fit: contain; /* Ajuste l'image pour qu'elle soit contenue dans son conte
   padding: 0 20px;
 }
 
-/* .navbar-32, .header-65, .layout-237, .layout-3 {
-  padding: 0px;
-} */
-
 .layout-237, .layout-3 {
   text-align: center;
   margin: 0px;
@@ -307,24 +292,56 @@ object-fit: contain; /* Ajuste l'image pour qu'elle soit contenue dans son conte
 }
 
 @media (max-width: 768px) {
-.container4, .container5, .container6 {
-  flex-direction: column;
-  align-items: flex-start;
-}
+  .container4, .container5, .container6 {
+    align-items: center;
+    justify-content: center;
+  }
 
-.navbar-32, .header-65, .layout-237, .layout-3 {
-  text-align: center;
-}
+  .navbar-32, .header-65, .layout-237, .layout-3 {
+    text-align: center;
+  }
 
-.actions, .buttons {
-  flex-direction: column;
-  align-items: center;
-}
+  .container6 {
+    flex-flow: column-reverse wrap;
+    margin-bottom: var(--padding-45xl) ;
+  }
+  
+  .actions, .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .short-heading-here2 {
+    line-height: 120%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
 .navbar-32, .header-65, .layout-237, .layout-3 {
   padding: 10px;
+}
+
+.header-65 {
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.content13 {
+  height: auto;
+  padding: var(--padding-45xl) 0;
+}
+
+.layout-3 {
+  height: auto;
+}
+
+.container6 {
+  flex-flow: column-reverse wrap;
+  margin-bottom: var(--padding-45xl) ;
+}
+.content15 {
+  padding-bottom: var(--padding-5xl);
 }
 
 .navbar-32 {
