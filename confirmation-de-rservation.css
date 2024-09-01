@@ -228,6 +228,15 @@
   color: var(--text-primary);
   font-family: var(--text-medium-semi-bold);
 }
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
 
 
 /*Modifications*/
