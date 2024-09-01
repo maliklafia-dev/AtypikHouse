@@ -69,7 +69,7 @@
   gap: var(--gap-13xl);
 }
 .navbar-38 {
-  width: 80rem;
+  width: 100%;
   background-color: var(--background-color-primary);
   border-bottom: 1px solid var(--text-primary);
   box-sizing: border-box;
@@ -79,8 +79,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0rem var(--padding-45xl);
+  height: auto;
 }
 .short-heading-here7 {
   align-self: stretch;
@@ -124,7 +125,6 @@
   position: relative;
   line-height: 150%;
   font-weight: 600;
-  opacity: 0;
 }
 .content64 {
   align-self: stretch;
@@ -148,16 +148,19 @@
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  height: 800px;
+  /*height: 800px;*/
   width: 800px;
   flex-shrink: 0;
   object-fit: cover;
 }
 .text46 {
+  margin-top: 3px;
   align-self: stretch;
   position: relative;
   font-size: var(--text-small-link-size);
   line-height: 150%;
+  width: 100%;
+  min-height: 90px;
 }
 .header {
   align-self: stretch;
@@ -165,6 +168,13 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+
+.price:hover, .subheading2:hover{
+  cursor: pointer;
+  color: rgba(17, 207, 115, 0.8);
+  transition: ease-in-out, 0.3s;
 }
 .price {
   align-self: stretch;
@@ -188,6 +198,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-base);
+  min-height:  800px;
+  padding-bottom: 0;
 }
 .content66 {
   align-self: stretch;
@@ -632,6 +644,33 @@
   font-family: var(--text-medium-semi-bold);
   margin: 0;
 }
+
+.formComment {
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  
+}
+
+.typedefault12 {
+  align-self: stretch;
+  background-color: var(--background-color-primary);
+  border: 1px solid var(--text-primary);
+  box-sizing: border-box;
+  width: 90%;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  border-radius: 25px;
+}
+
+
 
 /*Modifications*/
 .list-des-appartements, .navbar-38, .header-54, .product-9, .layout-239, .stats-3, .cta-19, .cta-3, .footer-41 {

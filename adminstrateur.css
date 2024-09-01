@@ -248,9 +248,23 @@
   position: relative;
   height: auto;
   text-align: left;
-  font-size: var(--heading-desktop-h4-size);
+  font-size: var(--text-regular-link-size);
   color: var(--text-primary);
   font-family: var(--text-medium-semi-bold);
+}
+
+.profilContainer {
+  display: none;
+}
+
+.profilContainer.active {
+  display: block;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  right: 2px;
+  z-index: 1;
+  background-color: white;
 }
 
 /* Réinitialisation globale */

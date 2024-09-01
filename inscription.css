@@ -112,11 +112,11 @@
   flex-shrink: 0;
 }
 .label1 {
-  position: relative;
+  /* position: relative; */
   line-height: 150%;
 }
 .selectedfalse1 {
-  width: 7.889rem;
+  width: 100%;
   height: 2.056rem;
   display: flex;
   flex-direction: row;

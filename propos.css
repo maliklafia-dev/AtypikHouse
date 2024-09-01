@@ -592,5 +592,8 @@
   .content97, .form5 {
     width: 80%;
   }
+  .content97 {
+    align-self: center;
+  }
 
 }

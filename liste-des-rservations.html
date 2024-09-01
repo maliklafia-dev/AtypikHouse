@@ -18,7 +18,6 @@
     <title>Liste des réservations</title>
   </head>
   <body>
-    <div class="liste-des-rservations">
       <div class="liste-des-rservations1">
         <div class="navbar-33">
           <div class="container11">
@@ -35,21 +34,26 @@
                 <div class="nav-link-dropdown3">
                   <div class="link-one3"><a href="catgories.html">Categories</a></div>
                 </div>
+                <div class="link-one15"><a href="propos.html">Découvrir nos services</a></div>
               </div>
             </div>
             <div>
               <a href="index.html"><img class="color-dark15" alt="" src="./public/logo.jpeg" width="80px" height="80px" /></a>
             </div>
             <div class="column14">
-              <a href="profil.html">
-                <img
-                  class="iconamoonprofile-duotone2"
-                  alt=""
-                  src="./public/iconamoonprofileduotone.svg"
-                />
-              </a>
+              <img
+                class="iconamoonprofile-duotone2"
+                alt=""
+                src="./public/iconamoonprofileduotone.svg"
+                id="profilIcon"
+              />
             </div>
           </div>
+        </div>
+        <div class="profilContainer" id="profilContainer">
+          <p>Bienvenue dans ton espace, <span class="userName">Malik</span></p>
+          <a href="profil.html">Mon profil</a>
+          <a href="#">Se déconnecter</a>
         </div>
         <div class="header-50">
           <div class="container12">
@@ -74,19 +78,9 @@
                 l'évolution de votre réservation
               </div>
             </div>
-            <div class="row3">
-              <div class="actions9">
-                <div class="styleprimary-smalltrue-dar1 btn-primary">
-                  <div class="link-one3">voir plus</div>
-                </div>
-              </div>
-              <div class="styletertiary-smalltrue-da1">
-                <img
-                  class="chevron-down-icon3"
-                  alt=""
-                  src="./public/icon--dotshorizontalrounded.svg"
-                />
-              </div>
+            <div class="search"> 
+              <input class="searchInput" type="text" placeholder="Rechercher une réservation"></input>
+                <button class="styleprimary-smallfalse-da14 btn-primary">Rechcercher</button>
             </div>
           </div>
         </div>
@@ -232,6 +226,5 @@
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>

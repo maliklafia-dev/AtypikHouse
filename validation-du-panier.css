@@ -513,12 +513,14 @@
   font-family: var(--text-medium-semi-bold);
 }
 
-@media (max-width: 1200px) {
+ @media (max-width: 1200px) {
   .column22, .column23, .column24 {
     height: 400px;
   }
 }
-@media (max-width: 7680px) {
+
+
+@media (max-width: 768px) {
   .container18, .content38 {
     flex-flow: column wrap;
   }
@@ -538,7 +540,7 @@
     width: 98%;
   }
 
-}
+} 
 
 @media (max-width: 480px) {
   .column22, .column23, .column24 {
